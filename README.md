@@ -18,10 +18,13 @@ Cisco Devices: Cisco switch (3550) and Cisco router (4200 series) running IOS ve
 Linux System: A Linux machine for Ansible installation and management.
 Ansible and Python: Familiarity with Python is beneficial. You will need Ansible installed on your Linux machine along with necessary Python libraries.
 
-Key Features
+Key Features:
 Setting Up Ansible on Linux: Learn how to install and configure Ansible, including managing dependencies such as the paramiko library for SSH connections.
+
 Creating an Inventory File: Define target devices using Ansible's inventory file (.ini), specifying connection details and allowing agentless orchestration.
+
 Building Your First Playbook: Understand the structure and purpose of playbooks, written in YAML, to automate configuration tasks on Cisco devices.
+
 Hands-on Network Configuration Automation: Create templates for tasks like configuring interface descriptions and enabling interfaces, all from your playbook.
 
 Project Structure
@@ -36,13 +39,14 @@ git clone https://github.com/yourusername/ansible-network-automation-cisco.git
 cd ansible-network-automation-cisco
 Set Up Inventory File: Open the provided .ini file in the inventory/ directory to specify your Cisco device IP addresses and access credentials.
 Run the Playbook: Execute your playbook with the following command:
-bash
-Copy code
+
 ansible-playbook -i inventory/agents.ini playbooks/configure_devices.yml
 Review Results: Ansible will provide a summary after the playbook execution, showing successful and failed tasks.
-Conclusion
+
+Conclusion:
 This project aims to provide a foundation in network automation using Ansible and Cisco devices. It’s perfect for network engineers looking to expand into automation, combining both the CLI skills of traditional networking with powerful automation techniques.
 
 For a detailed walkthrough and video tutorial, check out my YouTube channel where I share additional insights and upcoming projects.
+https://www.youtube.com/watch?v=MU4rl0Nv890
 
 Note: Contributions and suggestions are welcome! If you have ideas for expanding this project or would like to collaborate on future automation projects, please feel free to reach out.
