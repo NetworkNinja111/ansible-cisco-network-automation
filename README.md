@@ -1,3 +1,19 @@
+# Ansible Network Automation for Cisco Devices
+**A Beginner's Guide to Network Automation with Ansible and Cisco**
+
+---
+
+**🚧 Project Status: In Progress 🚧**
+
+> **Note:** This project is currently under active development. The full project structure, playbooks, and other files are being worked on and will be added soon. Please check back for updates!
+
+---
+
+## Overview
+This project is designed as a practical guide to help network engineers, especially beginners, dive into network automation using Ansible for Cisco devices. ...
+
+
+
 # ansible-cisco-network-automation
 A beginner’s guide to automating Cisco network device configurations with Ansible, featuring step-by-step playbook setups, device inventory creation, and practical examples to streamline workflows and reduce configuration errors for network engineers
 
