@@ -1,0 +1,15 @@
+---
+- name: Configure Cisco Router Interface
+  hosts: routers
+  gather_facts: no
+  connection: network_cli
+  become: false
+
+  tasks:
+    - name: Configure interface LoopBack111 with description
+      cisco.ios.ios_interfaces:
+        config:
+          - name: LoopBack111
+            description: Ninja Lab
+            enabled: true
+
